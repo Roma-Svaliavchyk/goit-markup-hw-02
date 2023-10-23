@@ -1,0 +1,152 @@
+:root {
+  --main-bg-color: #fff;
+  --supportive-bg-color: #2e2f42;
+
+  /* Text */
+  --main-font-family: "Roboto", sans-serif;
+  --supportive-font-page: "Raleway", sans-serif;
+
+  --title-h1-font-size: 56px;
+  --title-h2-font-size: 36px;
+  --title-h3-font-size: 20px;
+  --main-font-size: 16px;
+
+  --main-text-color: #434455;
+  --main-title-color: #2e2f42;
+  --hover-link-color: #404bbf;
+}
+
+
+
+/* Globsl */
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-size: var(--main-font-size);
+  font-family: var(--main-font-family);
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  font-family: var(--supportive-font-page);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+
+.logo>.dark-style {
+  color: #2e2f42;
+}
+
+.logo>.light-style {
+  color: #f4f4fd;
+}
+
+.list {
+  list-style: none;
+}
+
+.img {}
+
+
+
+/* HEDER */
+.header {
+  color: var(--main-title-color);
+  font-weight: 700;
+}
+
+.header-navigation {}
+
+.header-logo {}
+
+.dark-style {}
+
+.header-navigation-list {}
+
+.header-navigation-item {}
+
+.header-navigation-link {}
+
+.header-contacts {}
+
+.header-contacts-list {}
+
+.header-contacts-item {}
+
+.header-contacts-link {}
+
+
+/* SECTION HERO */
+.hero {
+  background-color: var(--supportive-bg-color);
+}
+
+.hero-title {
+  font-size: var(--title-h1-font-size);
+  color: #fff;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  color: #ffffff;
+
+  cursor: pointer;
+  background-color: #4D5AE5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus,
+.hero-btn:active {
+  background-color: #404BBF;
+}
+
+/* SECTION 2 */
+.section2 {}
+
+.section2-list {}
+
+.section2-item {}
+
+.section2-item-title {}
+
+.section2-item-text {}
+
+/* SECTION TEAM */
+.team {}
+
+.team-title {}
+
+.team-list {}
+
+.team-list-item {}
+
+.team-list-img {}
+
+.team-list-title {}
+
+.team-list-text {}
+
+
+/* FOOTER */
+.footer-logo {}
+
+.footer-text {}
